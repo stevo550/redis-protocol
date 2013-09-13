@@ -20,7 +20,4 @@ public class RedisException extends Exception {
     super(message, cause);
   }
 
-  protected RedisException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-    super(message, cause, enableSuppression, writableStackTrace);
-  }
 }
